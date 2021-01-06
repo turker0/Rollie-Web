@@ -51,7 +51,6 @@
   width: 30%;
   min-width: 260px;
   height: auto;
-
   transition: all 0.2s ease-in-out;
 }
 
@@ -87,8 +86,16 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #ff206e;
   border-color: #ff206e;
+}
+
+.card:hover h3,
+.card:hover p,
+.card:focus h3,
+.card:focus p,
+.card:active h3,
+.card:active p {
+  color: #ff206e;
 }
 
 .card h3 {

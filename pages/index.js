@@ -16,6 +16,7 @@ export default function Home() {
         <div className={styles.imgWrapper}>
           {[1, 2, 3].map((item) => (
             <img
+              key={item}
               src={"/img" + item + ".png"}
               alt={"Rollie" + item + " Photo"}
             />
